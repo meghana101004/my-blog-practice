@@ -1,13 +1,15 @@
-.subscribe-button {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
-.subscribe-button:hover {
-    background-color: #0056b3;
+/* Override button styles for dark mode */
+body.dark-mode .subscribe-button {
+    background-color: #bb86fc;
+    color: #121212;
 }
+
+body.dark-mode .subscribe-button:hover {
+    background-color: #3700b3;
+}
+
