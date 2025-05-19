@@ -1,0 +1,15 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Override button styles for dark mode */
+body.dark-mode .subscribe-button {
+    background-color: #bb86fc;
+    color: #121212;
+}
+
+body.dark-mode .subscribe-button:hover {
+    background-color: #3700b3;
+}
+
