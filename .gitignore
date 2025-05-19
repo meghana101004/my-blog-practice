@@ -1,1 +1,2 @@
 -e "*.log\n.DS_Store\nnode_modules/\nbuild/" 
+"temp.log" 
